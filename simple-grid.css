@@ -21,8 +21,8 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:sienna;
   line-height: 1.5;
 }
 
@@ -30,10 +30,12 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  margin-top: 50px;
 }
 
 h2 {
   font-size: 2rem;
+  margin-left: 22px;
 }
 
 h3 {
@@ -53,9 +55,11 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 0.98rem;
   font-weight: 200;
   line-height: 1.8;
+  color: black;
+  margin-left: 22px;
 }
 
 .font-light {
@@ -105,9 +109,10 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5rem 2%;
+  margin: 0.5rem 2%; 
   min-height: 0.125rem;
 }
+
 
 
 .col-1,
@@ -186,7 +191,9 @@ p {
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
+   
   }
+
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
@@ -236,16 +243,21 @@ p {
 
   .col-12 {
     width: 96%;
+    
   }
 
   .hidden-sm {
     display: block;
   }
+  
+  
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
     max-width: 60rem;
+    
   }
+  
 }
